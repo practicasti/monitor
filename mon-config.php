@@ -6,19 +6,19 @@
 */
 
 /** RUTA DE LA APLICACION */
-define('MON_DIR_PATH', 'http://localhost/monitor/');
+define('MON_DIR_PATH', 'http://192.168.20.50/');
 
 /** RUTA DE REDIRECCION */
-define('MON_REDIRECT', 'http://localhost/monitor/');
+define('MON_REDIRECT', 'http://192.168.20.50/');
 
 /** RELOAD TIME IN SECONDS **/
 define('MON_RELOAD_TIME', '0');
 
 /** BBDD CONFIG **/
 define('BBDD_NAME', 'monitorizacion');
-define('BBDD_HOST', 'localhost');
+define('BBDD_HOST', '192.168.20.50');
 define('BBDD_USER', 'root');
-define('BBDD_PASSWD', '');
+define('BBDD_PASSWD', '1234');
 define('BBDD_TABLE_DEVICES', 't_devices');
 define('BBDD_TABLE_USERS', 't_users');
 
@@ -48,26 +48,26 @@ define('DB_COLLATE', '');
 /** ERROR REPORTING **/
 
 // Turn off all error reporting
-error_reporting(0);
+//error_reporting(0);
 
 // Report simple running errors
-//error_reporting(E_ERROR | E_WARNING | E_PARSE);
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
 
 // Reporting E_NOTICE can be good too (to report uninitialized
 // variables or catch variable name misspellings ...)
-//error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
 // Report all errors except E_NOTICE
-//error_reporting(E_ALL & ~E_NOTICE);
+error_reporting(E_ALL & ~E_NOTICE);
 
 // Report all PHP errors (see changelog)
-//error_reporting(E_ALL);
+error_reporting(E_ALL);
 
 // Report all PHP errors
-//error_reporting(-1);
+error_reporting(-1);
 
 // Same as error_reporting(E_ALL);
-//ini_set('error_reporting', E_ALL);
+ini_set('error_reporting', E_ALL);
 
 
 ?>
