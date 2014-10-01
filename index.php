@@ -18,6 +18,8 @@ if(isset($_POST['user']) && !empty($_POST['user']) && isset($_POST['pass']) && !
 	
 	if ($valor[0] == true){
 	
+	echo "hola";
+	
 	$_SESSION['flag_user_logon']= 1;
 	$_SESSION['Admin_flag']=$valor[1];
 	
