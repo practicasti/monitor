@@ -1,0 +1,91 @@
+v.1.0.1 ¡ª 28 August 13
+
+add less files
+
+
+
+v.1.0.2 ¡ª 3 September 13
+
+add switch ------------- form.html
+add slimscroll --------- widgets.html
+add widgets ------------ widgets.html
+add bootstrap-wysiwyg -- form.html
+
+add invoice ------------ invoice.html
+add blog section ------- blog.html
+add dashboard option --- dashboard.html
+add pajax
+
+
+
+v.1.0.3
+
+add nestable list
+add markdown
+add calendar
+add more form example
+add dashboard-1.html
+add gallery.html
+
+fix form wizard
+fix off screen nav
+fix fullscreen input
+fix flex layout on ie
+
+improvment make the icon bigger for only-icon nav
+improvment some less file update
+
+v.1.1.0
+
+add portlet
+add dashboard-2.html
+add analysis.html
+add pjax sample
+add local img gallery sample
+add box layout just need add <html class="layout-box">
+add Chrome app sample code (chrome-app/)
+
+fix datepicker
+	change .datepicker to .datepicker-input
+
+fix print 
+	allow print the whole page when landscape view.
+	
+improvement
+	move the jquery.ui.touch-punch.min.js and jquery-ui-1.10.3.custom.min.js to js/ from js/fullcallendar for more useage 
+
+improvement 
+	updated jquery-ui-1.10.3.custom.min.js add jquery.ui.sortable.js
+
+improvement
+	layout change. vbox now support <header><section><footer> (before header footer section), app.js changed.
+
+improvement
+	off screen nav target switch to #nav(before it target to 'body'), add .nav-bar-fixed-top on .nav-bar to fix the position on the top on mobile.
+
+improvement
+	data-toggle="class" support multi targets, use colan to separate them.
+
+v.1.1.1
+
+fix the nav-off-screen when the content height is less than nav
+fix the scrollable on android.
+fix .vbox.flex on ie
+
+remove the carousel swipe on mobile(bs 3.1 will support this)
+
+add detailed documents
+add table editable
+add infinite scroll
+
+v.1.1.2
+
+Fix flex vbox and dashboard.html
+Fix Calendar on FF
+Fix off screen nav on Mobile
+Fix static table sorting
+
+Improvements on landing page
+add price table on landing page
+add google map
+add master/detail page

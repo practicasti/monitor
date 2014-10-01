@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h4 class="modal-title">¿Está seguro de que desea eliminar el registro?</h4>
+    </div>
+    <div class="modal-body">
+	<?php
+	$accion=$_GET['accion'];
+	$id=$_GET['id'];
+	echo $accion;
+	echo $id;
+	  echo "<a href='mdevices_actions.php?accion=$accion&id=$id' >" ;?> <a class="btn btn-primary">Continuar</a><?php echo "</a>"; ?>
+      <a href="#" class="btn btn-white" data-dismiss="modal">Cancelar</a>
+    </div>
+   
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</body>
+</html>
